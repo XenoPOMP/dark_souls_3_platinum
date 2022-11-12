@@ -1,0 +1,8 @@
+%uiGrid {
+  --grid-gap: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: var(--grid-gap);
+  grid-row-gap: var(--grid-gap);
+}

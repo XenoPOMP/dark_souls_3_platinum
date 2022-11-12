@@ -39,16 +39,24 @@ export const checkboxReducer = (
 ) => {
   switch (action.type) {
     case 'UPDATE_CHECKBOX': {
-      const preChapters = state.chapters;
+      // const preChapters = state.chapters;
       const payload = action.payload;
 
       // @ts-ignore
-      preChapters[payload.chapter][payload.location][payload.id] = {
+      // preChapters[payload.chapter][payload.location][payload.id] = {
+      //   id: payload.id,
+      //   value: payload.value,
+      // };
+
+      const chapters = state.chapters;
+      let newChapters = { ...chapters };
+      // @ts-ignore
+      newChapters[payload.chapter][payload.location][payload.id] = {
         id: payload.id,
         value: payload.value,
       };
 
-      return { ...state };
+      return { ...state, chapters: newChapters };
     }
 
     default:

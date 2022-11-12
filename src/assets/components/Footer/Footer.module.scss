@@ -1,0 +1,61 @@
+@import "./src/assets/styles/uiGrid";
+@import "./src/assets/styles/flexCenter";
+
+footer.appFooter {
+  font-size: 20px;
+  width: 100%;
+  height: 128px;
+  padding: 30px;
+  @extend %flexCenter;
+
+  .body {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    @extend %uiGrid;
+    background: #312D2D;
+    font-size: 1.85em;
+
+    .logo, .progress,
+    .jumpBack, .jumpForward {
+      @extend %flexCenter;
+    }
+
+    .logo {
+      grid-column-start: 1;
+      grid-column-end: 5;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .progress {
+      grid-column-start: 11;
+      grid-column-end: 13;
+      font-feature-settings: 'ordn' on;
+      display: none;
+    }
+
+    .jumpBack, .jumpForward {
+      display: none;
+      img {
+        cursor: pointer;
+      }
+    }
+
+    .jumpBack {
+      grid-column-start: 10;
+      grid-column-end: 11;
+    }
+
+    .jumpForward {
+      grid-column-start: 9;
+      grid-column-end: 10;
+
+      img {
+        transform: rotate(.5turn);
+      }
+    }
+  }
+}

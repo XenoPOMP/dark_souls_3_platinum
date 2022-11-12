@@ -1,0 +1,27 @@
+.mainPage {
+  font-size: 20px;
+
+  h1 {
+    width: 100%;
+    font-size: 1.85em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 77px;
+  }
+
+  .entry {
+    font-size: 1em;
+    text-align: justify;
+    padding: 20px 0;
+  }
+
+  .important {
+    font-weight: bold;
+    background: #eaf112;
+    color: black;
+    padding: .15em;
+    border-radius: .15em;
+    margin: 2em 0;
+  }
+}

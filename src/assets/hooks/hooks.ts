@@ -1,3 +1,4 @@
 import useCheckbox from './useCheckbox';
+import useProgress from './useProgress';
 
-export { useCheckbox };
+export { useCheckbox, useProgress };

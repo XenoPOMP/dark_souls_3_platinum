@@ -2,17 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd22f5d9-7967-44b9-84d8-107425a4d386" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/components/CheckBox/CheckBox.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/components/CheckBox/CheckBox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/components/Footer/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/components/Layout/Layout.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/components/Location/Location.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/components/Location/Location.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/pages/MainPage/MainPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/components/Footer/Footer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/hooks/useProgress.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/2016_-_Dark_Souls_III 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/DS logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/achievement icons/ember_first.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/achievement icons/ember_second.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/achievement icons/judex_gundir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/jump_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pages/MainPage/MainPage.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/flexCenter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/uiGrid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/components/Layout/Layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/Layout/Layout.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/components/Location/Location.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/Location/Location.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/components/Location/Location.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/Location/Location.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/hooks/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/hooks/hooks.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/hooks/useCheckbox.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/hooks/useCheckbox.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/pages/MainPage/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/pages/MainPage/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/redux/reducers/checkboxReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/redux/reducers/checkboxReducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +37,9 @@
       <list>
         <option value="Nullstyles file" />
         <option value="README file" />
-        <option value="TypeScript File" />
-        <option value="SCSS File" />
         <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -47,6 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -58,7 +71,7 @@
     "node.js.selected.package.standard": "",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "D:\\Repos\\Web\\React\\cra-template-typescript\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "settings.editor.selected.configurable": "editing.templates",
     "ts.external.directory.path": "D:\\Repos\\Web\\React\\dark_souls_3_platinum\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -108,7 +121,7 @@
       <workItem from="1667374406399" duration="1629000" />
       <workItem from="1667522918583" duration="3543000" />
       <workItem from="1668259503212" duration="1451000" />
-      <workItem from="1668261551607" duration="8670000" />
+      <workItem from="1668261551607" duration="28163000" />
     </task>
     <servers />
   </component>
@@ -130,6 +143,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

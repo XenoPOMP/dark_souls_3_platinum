@@ -1,4 +1,5 @@
 @import "assets/styles/nullstyles";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
   font-size: 20px;
@@ -7,4 +8,5 @@
 body {
   background: #232222;
   color: white;
+  font-family: 'PT Sans', sans-serif;
 }

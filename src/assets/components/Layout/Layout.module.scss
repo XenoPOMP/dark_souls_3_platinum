@@ -1,3 +1,27 @@
-.layout {
+@import "./src/assets/styles/uiGrid";
 
+.layout {
+  main {
+    --main-gap: 250px;
+
+    width: 100%;
+    height: calc(100vh - 128px);
+    @extend %uiGrid;
+    grid-template-columns: 1fr 5.68fr 1fr;
+    overflow-y: scroll;
+
+    @media (max-width: 968px) {
+      grid-template-columns: 10px 1fr 10px;
+    }
+
+    &::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+
+    .container {
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+  }
 }

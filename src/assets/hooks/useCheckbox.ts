@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import Cookies from 'universal-cookie';
+import { useEffect } from 'react';
 
 const useCheckbox = (id: number, chapter: string, location: string) => {
   const selector = useSelector(
@@ -22,7 +23,7 @@ const useCheckbox = (id: number, chapter: string, location: string) => {
   if (cookies.get(cookieName) === undefined) cookies.set(cookieName, false);
 
   // Register checkbox
-  if (selector.length == 0) {
+  useEffect(() => {
     dispatch({
       type: 'UPDATE_CHECKBOX',
       payload: {
@@ -32,7 +33,7 @@ const useCheckbox = (id: number, chapter: string, location: string) => {
         value: cookieValue,
       },
     });
-  }
+  }, []);
 
   const switchSelector = () => {
     cookies.set(cookieName, !selectorValue.value);
