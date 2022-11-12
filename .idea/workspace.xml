@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd22f5d9-7967-44b9-84d8-107425a4d386" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/redux/reducers/checkboxReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/hooks/hooks.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/hooks/useCheckbox.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/redux/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/redux/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/redux/reducer-list.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/redux/reducer-list.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/redux/reducers/checkboxReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/redux/reducers/checkboxReducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
     "node.js.selected.package.standard": "",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "D:\\Repos\\Web\\React\\cra-template-typescript\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "fileTemplates",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "D:\\Repos\\Web\\React\\dark_souls_3_platinum\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -102,7 +101,7 @@
       <workItem from="1667374406399" duration="1629000" />
       <workItem from="1667522918583" duration="3543000" />
       <workItem from="1668259503212" duration="1451000" />
-      <workItem from="1668261551607" duration="803000" />
+      <workItem from="1668261551607" duration="6291000" />
     </task>
     <servers />
   </component>
