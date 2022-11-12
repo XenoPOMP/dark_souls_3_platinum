@@ -1,4 +1,3 @@
-import { secondExampleReducer } from './reducers/secondExampleReducer';
-import { exampleReducer } from './reducers/exampleReducer';
+import { checkboxReducer } from './reducers/checkboxReducer';
 
-export { secondExampleReducer, exampleReducer };
+export { checkboxReducer };
