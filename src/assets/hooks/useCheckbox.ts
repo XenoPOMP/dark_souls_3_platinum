@@ -1,6 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
 import Cookies from 'universal-cookie';
-import { useEffect } from 'react';
 
 const useCheckbox = (id: number, chapter: string, location: string) => {
   const selector = useSelector(
@@ -48,10 +47,6 @@ const useCheckbox = (id: number, chapter: string, location: string) => {
       },
     });
   };
-
-  useEffect(() => {
-    console.log(allItems);
-  }, [allItems]);
 
   return [selectorValue, switchSelector];
 };

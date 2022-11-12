@@ -1,0 +1,16 @@
+.checkbox {
+  font-size: 1rem;
+  cursor: pointer;
+  padding: .15rem;
+  border-radius: .15rem;
+
+  &.notChecked {
+    background: red;
+    color: white;
+  }
+
+  &.checked {
+    background: #11D124;
+    color: black;
+  }
+}
